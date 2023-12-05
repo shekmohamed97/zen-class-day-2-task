@@ -1,0 +1,43 @@
+QUESTION:
+     write a blong on the diffrence between document and window objects
+
+ans:
+
+   in the world of javascript the document and window object are foundational components that play distinct yet interconnected roles in web development . while they both represent key aspect of the browsing context their functionalities and scopes differ significatly
+
+THE window object:
+
+   the window object serves as the global object in a browser environment . it encompasses various properties and methods that relate to the browsing context and global scope .
+
+1.GLOBAL scope:
+    acts as the global scope for all javascript code running in a browser environment. contains global functions ,variable,and object accessible throughout the script
+
+2.browser context management:
+    manages the browsing context,incuding tabs,frams,and iframes. provides access to browser related properties like
+
+3.interaction with frams and pop ups:
+    manages child context through methods like window.open()and window.close()
+
+4.hosting the document object:
+    serves as a container for the document object allowing access to the document content and structure
+
+
+THE DOCUMENT OBJECT:
+
+    on the other hand the document object is a property of thge window onject and represnt the actual web page content within the browsing context it encapsulates
+
+1.DOM manipulation:
+
+    provides methodes and properties to access and manipulate the document object model DOM of the current HTML document. allows modification of content ,structure, aand styles of the webpage
+
+2.content accessibility:
+
+    offers access to elements allowing developers to retrieve and modify specify elements or their attributes . allows modification of content, structure,and style,of the webpage
+
+3.EVENT HOLDING:
+    
+    handles events occuring within the document such as user interaction like clickes, keypresses, etc. utilizes event listeners and handlers to respond to these events 
+
+4. RELATIONSHIP WITH window:
+
+      relise on the window object for global scope and browser related functionalities.    
